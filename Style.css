@@ -1,0 +1,39 @@
+ul{
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color:#FFB300;
+    -webkit-background-color:#FFB300;
+    -moz-background-color:#FFB300;
+    -ms-background-color:#FFB300;
+    -o-background-color:#FFB300;
+}
+ul li{
+    display: table-cell;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: serif;
+    font-size: 55px;
+    padding: 13px 13px 13px 13px;
+}
+ul li a:hover
+{
+	color:#707070;
+}
+
+.border
+{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+#searchbar{position:relative; width:1040px; height:auto;}
+.formulaire               {display:inline-block;}
+.formulaire .champ       {width:600px; height:35px;}
+.formulaire .bouton       { background-image: url(images/searchbar_button.png);background-repeat: no-repeat;width: 100px;height: 35px;padding: 0; }
