@@ -7,102 +7,73 @@
     <link rel="stylesheet" href="css/Style.css" />
     <title>Bienvenue sur le site de Shonen Jump</title>
 
-  </head>
-
-  <body>
-
-    <!--
-    <ul class="header">
-      <li width="405">
-        <div id="searchbar">
-          <form action="" class="formulaire">
-            <input class="champ" type="text" value="Rechercher..." />
-            <input class="bouton" type="button" value="Rechercher" />
-          </form>
-        </div>
-      </li>
-      <li width="25%">
-        <a href="homePage.html">
-          <img src="img\Logo.png" alt="" width="372"  border=no />
-        </a>
-      </li>
-      <li>
-        <div id="icons">
-          <form class="formulaire">
-            <img class="MyAccount" src="img\Mon Compte.png" alt=""  border=no />
-            <img class="Cart" src="img\Panier.png" alt=""  border=no />
-          </form>
-        </div>
-      </li>
-    </ul>
-    -->
-
-    <!--
-    <div class="row">
-      <div class="column-3">
-        <div id="searchbar">
-          <form action="" class="formulaire">
-            <input class="champ" type="text" value="Rechercher..." />
-            <input class="bouton" type="button" value="Rechercher" />
-          </form>
-        </div>
-      </div>
-      <div class="column-3">
-        <a class="center" href="homePage.html">
-          <img src="img\Logo.png" alt="" width="372"  border=no />
+    <div id="header">
+      <div class="logo">
+        <a class="logo" href="homePage.html">
+          <img class="logo" src="img\Logo.png" alt=""  border=no href="homePage.html" />
         </a>
       </div>
-      <div class="column-3">
-        <div class="row">
-          <div class="column-2">
-            <img class="MyAccount" src="img\Mon Compte.png" alt="" height="90px" border=no />
-          </div>
-          <div class="column-2">
-            <img class="Cart" src="img\Panier.png" alt="" height="90px" border=no />
-          </div>
-        </div>
+      <div id="searchbar">
+        <form action="" class="formulaire">
+          <input class="champ" type="text" name="MainSearch" placeholder="Recherche" />
+          <input class="bouton" type="button" value="Rechercher" />
+        </form>
+      </div>
+      <div class="icons">
+        <img class="MyAccount" src="img\Mon Compte.png" alt="" border=no />
+        <img class="Cart" src="img\Panier.png" alt="" border=no />
       </div>
     </div>
-    -->
-
-    <table>
-      <tr>
-        <td style="width:447px">
-          <div id="searchbar">
-            <form action="" class="formulaire">
-              <input class="champ" type="text" value="Rechercher..." />
-              <input class="bouton" type="button" value="Rechercher" />
-            </form>
-          </div>
-        </td>
-        <td style="width:1069px">
-          <a class="center" href="homePage.html">
-            <img src="img\Logo.png" alt="" width="372"  border=no />
-          </a>
-        </td>
-        <td style="width:404px">
-          <table>
-            <tr>
-              <td style="width:100px"></td>
-              <td style="width:84px">
-                <img class="MyAccount" src="img\Mon Compte.png" alt="" height="84px" border=no />
-              </td>
-              <td style="width:30px"></td>
-              <td style="width:90px">
-                <img class="Cart" src="img\Panier.png" alt="" height="84px" border=no />
-              </td>
-              <td style="width:100px"></td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
 
     <ul class="menu">
       <li><a href="#1">Nouveautés</a></li>
       <li><a href="#2">Boutique</a></li>
       <li><a href="#3">A Propos</a></li>
     </ul>
+
+  </head>
+
+  <body>
+
+    <div align="center">
+      <div class="contener_slideshow">
+        <div class="contener_slide">
+          <div class="slid_1"><img src="img\Test 1.png"></div>
+          <div class="slid_2"><img src="img\Test 2.png"></div>
+          <div class="slid_3"><img src="img\Test 3.png"></div>
+        </div>
+      </div>
+    </div>
+
+    <section id="slideshow">
+
+    	<div class="container">
+    		<div class="c_slider"></div>
+    		<div class="slider">
+    			<figure>
+    				<img src="img\Test 1.png" alt="" />
+    				<figcaption>The mirror of soul</figcaption>
+
+    			</figure><!--
+    			--><figure>
+    				<img src="img\Test 2.png" alt="" />
+    				<figcaption>Let's cross that bridge when we come to it</figcaption>
+    			</figure><!--
+    			--><figure>
+    				<img src="img\Test 3.png" alt="" />
+    				<figcaption>Sushi<em>(do)</em> time</figcaption>
+
+    			</figure><!--
+    			--><figure>
+    				<img src="img\Test 4.png" alt="" />
+    				<figcaption>Waking Life</figcaption>
+    			</figure>
+    		</div>
+    	</div>
+
+    	<span id="timeline"></span>
+
+    </section>
 
   </body>
 <html/>
